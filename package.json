@@ -1,0 +1,32 @@
+{
+  "name": "base_project",
+  "version": "1.0.0",
+  "description": "base project using hapijs and mongodb, best practice for project structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demandmatic/base_project.git"
+  },
+  "keywords": [
+    "hapijs",
+    "mongodb",
+    "structure",
+    "nodejs"
+  ],
+  "author": "TuanVA (demandmatic)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demandmatic/base_project/issues"
+  },
+  "homepage": "https://github.com/demandmatic/base_project#readme",
+  "dependencies": {
+    "hapi": "^17.5.1",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.5",
+    "nconf": "^0.10.0"
+  }
+}
