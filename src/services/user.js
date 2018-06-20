@@ -1,11 +1,11 @@
 let BaseService = require('./base'),
     userModel = require('../models/user')
 
-class JobService extends BaseService {
+class UserService extends BaseService {
     constructor(model) {
         super(model)
     }
 }
 
-module.exports = new JobService(userModel)
-module.exports.JobService = JobService
+module.exports = new UserService(userModel)
+module.exports.JobService = UserService
