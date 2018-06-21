@@ -7,5 +7,5 @@ class UserService extends BaseService {
     }
 }
 
-module.exports = new UserService(userModel)
+module.exports = new BaseService(userModel)
 module.exports.UserService = UserService
