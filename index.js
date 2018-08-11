@@ -17,8 +17,10 @@ server.route(Routes);
 async function start() {
     try {
         mongoose.connect(Config.get('db:mongo:server'), Config.get('db:mongo:config'), function (err) {
-            if (err) console.error(err);
-            process.exit(1);
+            if (err){
+                console.error(err);
+                process.exit(1);
+            }
         });
         await server.start();
     }
